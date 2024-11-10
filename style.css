@@ -1,0 +1,99 @@
+/* Reset一些基本的margin和padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* 頁面主體寬度 */
+main {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 頁首 */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* 區塊標題樣式 */
+h2 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* 內容區塊樣式 */
+section {
+    margin-bottom: 20px;
+}
+
+/* 學歷 */
+.school, .interest {
+    margin-bottom: 10px;
+}
+
+.school-dates, .activity-dates {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* 技能清單 */
+.skills-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills-list li {
+    background-color: #3498db;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* 聯絡資訊 */
+.contact p {
+    margin: 5px 0;
+}
+
+/* 頁尾 */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
